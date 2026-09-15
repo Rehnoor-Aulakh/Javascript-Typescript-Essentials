@@ -1,2 +1,12 @@
-console.log("Typescript is here still");
-console.log("Typescript is here still");
+class User {
+    email: string;
+    name: string;
+    readonly city: string;
+    constructor(email: string, name: string, city:string) {
+        this.email = email;
+        this.name = name;
+        this.city = city;
+    }
+}
+
+const rehnoor = new User("rehnoor@gmail.com", "Rehnoor Aulakh", "Patiala");
